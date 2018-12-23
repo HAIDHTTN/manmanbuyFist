@@ -1,0 +1,79 @@
+@import "base.less";
+@main-color:#f4483e;
+#header {
+    height: .45rem;
+    padding: .05rem;
+    display: flex;
+    background-color: @main-color;
+    text-align: center;
+    .tb {
+        height: .35rem;
+        width: .35rem;
+        i {
+            font-size: .3rem;
+            color: #fff;   
+        }
+    
+    }
+    .title {
+      flex: 1;
+      line-height: .35rem;
+      color: #fff;
+      font-size: .2rem;
+    }
+
+  .app {
+      width: .35rem;
+      height: .35rem;
+      img {
+          width: 100%;
+      }
+    }
+}
+#main {
+    position: relative;
+    height: 100%;
+    .title {
+        height: .35rem;
+        margin: .1rem;
+        line-height: .35rem;
+        a {
+            color: #000;
+            font-size: .14rem;
+        }
+        i {
+            font-size: .20rem;
+        }
+    }
+    .content {
+        ul {
+            width: 100vw;
+            padding: .05rem;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            li {
+                // border: #ccc .01rem solid;
+                width: 49%;
+                margin-top: .05rem;
+                box-shadow: 0rem 0rem .03rem #ccc;
+                a {
+                    display: block;
+                    width: 100%;
+                    text-align: center;
+                    img {
+                        width: .5rem;
+                        height: .5rem;
+                        margin-top: .1rem;
+                    }
+                    p {
+                        margin-top: .05rem;
+                        font-size: .12rem;
+                        color: #000;
+                    }
+                }
+
+            }
+        }
+    }
+}

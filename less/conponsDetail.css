@@ -1,0 +1,212 @@
+* {
+  padding: 0rem;
+  margin: 0rem;
+  border: none;
+}
+li {
+  list-style: none;
+}
+img {
+  vertical-align: middle;
+}
+body {
+  font-size: .14rem;
+  background-color: #fff;
+  padding: .45rem 0rem 1.2rem 0rem ;
+  height: 100vh;
+}
+#header {
+  height: .45rem;
+  padding: .05rem;
+  display: flex;
+  background-color: #f4483e;
+  text-align: center;
+  position: fixed;
+  width: 100vw;
+  top: 0rem;
+  z-index: 9;
+}
+#header .tb {
+  height: .35rem;
+  width: .35rem;
+}
+#header .tb i {
+  font-size: .3rem;
+  color: #fff;
+}
+#header .title {
+  flex: 1;
+  line-height: .35rem;
+  color: #fff;
+  font-size: .2rem;
+}
+#header .app {
+  width: .35rem;
+  height: .35rem;
+}
+#header .app img {
+  width: 100%;
+}
+#footer {
+  position: fixed;
+  bottom: 0rem;
+  left: 0rem;
+  width: 100vw;
+  background-color: #ccc;
+  z-index: 9;
+}
+#footer .mui-card {
+  margin: 0rem;
+  text-align: center;
+  box-shadow: none;
+  background-color: #f1f1f1;
+}
+#footer .mui-card .mui-card-footer {
+  border-bottom: 1px solid #ccc;
+  min-height: .35rem;
+  height: .35rem;
+  padding: .05rem;
+}
+#footer .mui-card .mui-card-footer a {
+  width: 100%;
+  color: #8f8f94;
+  display: flex;
+  height: .35rem;
+  justify-content: center;
+}
+#footer .mui-card .mui-card-footer a:nth-of-type(1) {
+  border-right: .01rem solid #ccc;
+}
+#footer .mui-card .mui-card-footer a:nth-of-type(2) {
+  border-right: .01rem solid #ccc;
+}
+#footer .mui-card .mui-card-content {
+  color: #666;
+  font-size: .12rem;
+  overflow: hidden;
+}
+#footer .mui-card .mui-card-content p {
+  font-size: .12rem;
+}
+#footer .mui-card .mui-card-content p a {
+  font-size: .12rem;
+  color: #f4483e;
+  overflow: hidden;
+}
+#footer .mui-card .mui-card-content p:nth-of-type(1) {
+  margin-bottom: 0rem;
+  margin-top: .15rem;
+}
+#footer .mui-card .mui-card-content p:nth-of-type(2) {
+  margin-bottom: .25rem;
+}
+body {
+  background-color: #f1f1f1;
+}
+#main {
+  height: 100%;
+  position: relative;
+}
+#main .reminder p {
+  text-align: center;
+  margin-top: .1rem;
+  font-size: .13rem;
+  color: #bbb;
+}
+#main .coupons .mui-table-view .mui-table-view-cell {
+  padding-right: .25rem;
+}
+#main .coupons .mui-table-view .mui-table-view-cell .mui-navigate-right {
+  white-space: normal;
+  margin-right: -0.25rem;
+  font-weight: bold;
+}
+#main .coupons .mui-table-view .mui-table-view-cell .mui-navigate-right .mui-media-object {
+  max-width: .98rem;
+  height: .98rem;
+}
+#main .coupons .mui-table-view .mui-table-view-cell .mui-navigate-right .mui-media-body p:nth-of-type(1) {
+  color: #000;
+  margin-bottom: .10rem;
+}
+#main .coupons .mui-table-view .mui-table-view-cell .mui-navigate-right .mui-media-body p:nth-of-type(2) {
+  color: #EE7700;
+  font-weight: normal;
+  font-size: .12rem;
+}
+#main .title {
+  height: .35rem;
+  margin: .1rem;
+  line-height: .35rem;
+}
+#main .title a {
+  color: #000;
+  font-size: .14rem;
+}
+#main .title i {
+  font-size: .20rem;
+}
+#main .mui-backdrop {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+#main .mui-backdrop .ico {
+  height: .25rem;
+  width: .25rem;
+  font-size: .2rem;
+  position: absolute;
+  right: .2rem;
+  top: .2rem;
+  background-color: #fff;
+  border-radius: 50%;
+  line-height: .25rem;
+  text-align: center;
+  background-image: url("../images/icon_bar.png");
+  background-position: 0.78rem -0.32rem;
+}
+#main .slidebox {
+  width: 3rem;
+  height: 2rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: pink;
+}
+#main .slidebox .swiper-container {
+  width: 100%;
+  height: 100%;
+}
+#main .slidebox .swiper-container .swiper-wrapper .swiper-slide img {
+  width: 2rem;
+  height: 1.6rem;
+}
+#main .slidebox .swiper-container .swiper-wrapper {
+  text-align: center;
+  line-height: 2rem;
+}
+#main .slidebox .swiper-container .swiper-button-next {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#main .slidebox .swiper-container .swiper-button-prev {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#main .roctket {
+  width: .5rem;
+  height: .5rem;
+  position: absolute;
+  z-index: 99;
+  bottom: -0.8rem;
+  right: .2rem;
+}
+#main .roctket .icon-md-rocket {
+  width: .5rem;
+  height: .5rem;
+  display: block;
+  font-size: .4rem;
+  color: #666;
+  background-color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  line-height: .5rem;
+}

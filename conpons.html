@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>优惠券</title>
+    <!-- 1.引入MUI的css文件 -->
+    <link rel="stylesheet" href="lib/mui/css/mui.min.css">
+    <!-- 2.引入字体图标fontawesome的css文件 -->
+    <link rel="stylesheet" href="./lib/fontAwesome/css/font-awesome.css">
+    <!-- 3.引入优惠券的less文件 -->
+    <link rel="stylesheet/less" href="less/conpons.less">
+    <!-- 4.引入less的编译文件less.js ,编译conpons.less需要依赖他,印象页面渲染优先执行-->
+    <script src="./lib/less/less.js"></script>
+    <!-- 5.引入字体函数 -->
+    <script src="./js/fontsize.js"></script>
+</head>
+<body>
+    <!-- 头部 -->
+    <div id="header">
+        <a href="javascript:history.back();" class="tb">
+            <i class="fa fa-angle-left"></i>
+        </a>
+        <div class="title">优惠券</div>
+        <a href="javascript:void(0)" class="app"><img src="./images/header_app.png" alt="手机app下载"></a>
+    </div>
+    <!-- 主体 -->
+    <div id="main">
+            <div class="mui-scroll-wrapper">
+                    <div class="mui-scroll">
+                        <!--这里放置真实显示的DOM内容-->
+                        <div class="content">
+                                <ul class="coupons">
+                                    <li><a href="conponsDetail.html"><img src="./images/ic_bcj.png" alt=""><p>肯德基</p></a></li>
+                                    <li><a href="conponsDetail.html"><img src="./images/ic_bcj.png" alt=""><p>肯德基</p></a></li>
+                                    <li><a href="conponsDetail.html"><img src="./images/ic_bcj.png" alt=""><p>肯德基</p></a></li>
+                                    <li><a href="conponsDetail.html"><img src="./images/ic_bcj.png" alt=""><p>肯德基</p></a></li>
+                                    <li><a href="conponsDetail.html"><img src="./images/ic_bcj.png" alt=""><p>肯德基</p></a></li>
+                                    <li><a href="conponsDetail.html"><img src="./images/ic_bcj.png" alt=""><p>肯德基</p></a></li>
+                                    <li><a href="conponsDetail.html"><img src="./images/ic_bcj.png" alt=""><p>肯德基</p></a></li>
+                                    <li><a href="conponsDetail.html"><img src="./images/ic_bcj.png" alt=""><p>肯德基</p></a></li>
+                                    <li><a href="conponsDetail.html"><img src="./images/ic_bcj.png" alt=""><p>肯德基</p></a></li>
+                                    <li><a href="conponsDetail.html"><img src="./images/ic_bcj.png" alt=""><p>肯德基</p></a></li>
+                                    <li><a href="conponsDetail.html"><img src="./images/ic_bcj.png" alt=""><p>肯德基</p></a></li>
+                                    <li><a href="conponsDetail.html"><img src="./images/ic_bcj.png" alt=""><p>肯德基</p></a></li>
+                                    <li><a href="conponsDetail.html"><img src="./images/ic_bcj.png" alt=""><p>肯德基</p></a></li>
+                                    <li><a href="conponsDetail.html"><img src="./images/ic_bcj.png" alt=""><p>肯德基</p></a></li>
+                                    <li><a href="conponsDetail.html"><img src="./images/ic_bcj.png" alt=""><p>肯德基</p></a></li>
+                                    <li><a href="conponsDetail.html"><img src="./images/ic_bcj.png" alt=""><p>肯德基</p></a></li>
+                                    <li><a href="conponsDetail.html"><img src="./images/ic_bcj.png" alt=""><p>肯德基</p></a></li>
+                                    <li><a href="conponsDetail.html"><img src="./images/ic_bcj.png" alt=""><p>肯德基</p></a></li>
+                                    <li><a href="conponsDetail.html"><img src="./images/ic_bcj.png" alt=""><p>肯德基</p></a></li>
+                                    <li><a href="conponsDetail.html"><img src="./images/ic_bcj.png" alt=""><p>肯德基</p></a></li>
+                                </ul>
+                            </div>
+                            <div class="title">
+                                    <a href="index.html">首页</a>&nbsp;&nbsp;<i class="fa fa-angle-right"></i>&nbsp;&nbsp;<a href="conpons.html">优惠券</a>
+                            </div>
+                    </div>
+                </div>
+        
+    </div>
+    <!-- 尾部 -->
+    <div id="footer">
+            <div class="mui-card">
+                    <div class="mui-card-footer">
+                        <a href="login.html" class="mui-card-link">登录</a>
+                        <a href="register.html" class="mui-card-link">注册</a>
+                        <a href="conpons.html" class="mui-card-link"> <i class="fa fa-chevron-circle-up"></i> &nbsp;&nbsp;返回顶部</a>
+                    </div>
+                    <div class="mui-card-content" >
+                            <p>
+                                <a href="#">手机app下载</a>
+                                <span>慢慢买手机版--掌上比价平台</span>
+                            </p>
+                            <p>m.manmanbuy.com</p>
+                    </div>
+            </div>
+    </div>
+    
+    <!-- 优惠券列表的模板 -->
+    <script id="cocponListTpl" type="text/html">
+        {{each result value index}}
+        <li>
+            <a href="javascript:void(0);" class="clist" data-id="{{value.couponId}}">
+                <img src="{{value.couponImg}}" alt="{{value.couponTitle}}">
+                <p>{{value.couponTitle}}</p>
+            </a>
+        </li>
+        {{/each}}
+    </script>
+
+
+
+    <script src="lib/mui/js/mui.js"></script>
+    <script src="lib/zepto/zepto.min.js"></script>
+    <script src="lib/artTemplate/template-web.js"></script>
+    <script src="js/conpons.js"></script>
+</body>
+</html>

@@ -1,0 +1,171 @@
+* {
+  padding: 0rem;
+  margin: 0rem;
+  border: none;
+}
+li {
+  list-style: none;
+}
+img {
+  vertical-align: middle;
+}
+body {
+  font-size: .14rem;
+  background-color: #fff;
+  padding: .45rem 0rem 1.2rem 0rem ;
+  height: 100vh;
+}
+#header {
+  height: .45rem;
+  padding: .05rem;
+  display: flex;
+  background-color: #f4483e;
+  text-align: center;
+  position: fixed;
+  width: 100vw;
+  top: 0rem;
+}
+#header .tb {
+  height: .35rem;
+  width: .35rem;
+}
+#header .tb i {
+  font-size: .3rem;
+  color: #fff;
+}
+#header .title {
+  flex: 1;
+  line-height: .35rem;
+  color: #fff;
+  font-size: .2rem;
+}
+#header .app {
+  width: .35rem;
+  height: .35rem;
+}
+#header .app img {
+  width: 100%;
+}
+#footer {
+  position: fixed;
+  bottom: 0rem;
+  left: 0rem;
+  width: 100vw;
+  background-color: #ccc;
+}
+#footer .mui-card {
+  margin: 0rem;
+  text-align: center;
+  box-shadow: none;
+  background-color: #f1f1f1;
+}
+#footer .mui-card .mui-card-footer {
+  border-bottom: 1px solid #ccc;
+  min-height: .35rem;
+  height: .35rem;
+  padding: .05rem;
+}
+#footer .mui-card .mui-card-footer a {
+  width: 100%;
+  color: #8f8f94;
+  display: flex;
+  height: .35rem;
+  justify-content: center;
+}
+#footer .mui-card .mui-card-footer a:nth-of-type(1) {
+  border-right: .01rem solid #ccc;
+}
+#footer .mui-card .mui-card-footer a:nth-of-type(2) {
+  border-right: .01rem solid #ccc;
+}
+#footer .mui-card .mui-card-content {
+  color: #666;
+  font-size: .12rem;
+  overflow: hidden;
+}
+#footer .mui-card .mui-card-content p {
+  font-size: .12rem;
+}
+#footer .mui-card .mui-card-content p a {
+  font-size: .12rem;
+  color: #f4483e;
+  overflow: hidden;
+}
+#footer .mui-card .mui-card-content p:nth-of-type(1) {
+  margin-bottom: 0rem;
+  margin-top: .15rem;
+}
+#footer .mui-card .mui-card-content p:nth-of-type(2) {
+  margin-bottom: .25rem;
+}
+#header {
+  height: .45rem;
+  padding: .05rem;
+  display: flex;
+  background-color: #f4483e;
+  text-align: center;
+}
+#header .tb {
+  height: .35rem;
+  width: .35rem;
+}
+#header .tb i {
+  font-size: .3rem;
+  color: #fff;
+}
+#header .title {
+  flex: 1;
+  line-height: .35rem;
+  color: #fff;
+  font-size: .2rem;
+}
+#header .app {
+  width: .35rem;
+  height: .35rem;
+}
+#header .app img {
+  width: 100%;
+}
+#main {
+  position: relative;
+  height: 100%;
+}
+#main .title {
+  height: .35rem;
+  margin: .1rem;
+  line-height: .35rem;
+}
+#main .title a {
+  color: #000;
+  font-size: .14rem;
+}
+#main .title i {
+  font-size: .20rem;
+}
+#main .content ul {
+  width: 100vw;
+  padding: .05rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#main .content ul li {
+  width: 49%;
+  margin-top: .05rem;
+  box-shadow: 0rem 0rem .03rem #ccc;
+}
+#main .content ul li a {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+#main .content ul li a img {
+  width: .5rem;
+  height: .5rem;
+  margin-top: .1rem;
+}
+#main .content ul li a p {
+  margin-top: .05rem;
+  font-size: .12rem;
+  color: #000;
+}

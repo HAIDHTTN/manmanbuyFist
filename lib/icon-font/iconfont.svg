@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+2013-9-30: Created.
+-->
+<svg>
+<metadata>
+Created by iconfont
+</metadata>
+<defs>
+
+<font id="iconfont" horiz-adv-x="1024" >
+  <font-face
+    font-family="iconfont"
+    font-weight="500"
+    font-stretch="normal"
+    units-per-em="1024"
+    ascent="896"
+    descent="-128"
+  />
+    <missing-glyph />
+    
+    <glyph glyph-name="md-rocket" unicode="&#59237;" d="M512 52.8c-36.2 0-66.4 13.6-85.8 21.8-10.8 4.6-22.6-3.6-21.8-15.2l7-102c0.4-6.2 7.6-9.4 12.6-5.6l29 22c3.6 2.8 9 1.8 11.4-2l41-64.2c3-4.8 10.2-4.8 13.2 0l41 64.2c2.4 3.8 7.8 4.8 11.4 2l29-22c5-3.8 12.2-0.6 12.6 5.6l7 102c0.8 11.6-11 20-21.8 15.2-19.6-8.2-49.6-21.8-85.8-21.8zM795.4 309.8l-96 98.2c0 316-186.4 456-186.4 456s-188.2-140-188.2-456l-96-98.2c-3.6-3.6-5.2-9-4.4-14.2L261.2 72c1.8-11.4 14.2-17 23.6-10.8l134.2 90.8s41.4-40 94.2-40c52.8 0 92.2 40 92.2 40l134.2-90.8c9.2-6.2 21.6-0.6 23.6 10.8l37 223.8c0.4 5.2-1.2 10.4-4.8 14zM513 512c-34 0-61.4 28.6-61.4 64s27.6 64 61.4 64c34 0 61.4-28.6 61.4-64s-27.4-64-61.4-64z"  horiz-adv-x="1024" />
+
+    
+
+
+  </font>
+</defs></svg>

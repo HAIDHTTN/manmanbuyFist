@@ -1,0 +1,134 @@
+@import "base.less";
+body {
+    background-color: #f1f1f1;
+}
+#main {
+    height: 100%;
+    position: relative;
+    .reminder {
+        p {
+            text-align: center;
+            margin-top: .1rem;
+            font-size: .13rem;
+            color: #bbb;
+        }
+    }
+    .coupons {
+        .mui-table-view {
+            .mui-table-view-cell {
+                padding-right: .25rem;
+                .mui-navigate-right {
+                    white-space: normal;
+                    margin-right: -0.25rem;
+                    font-weight: bold;
+                    .mui-media-object {
+                        max-width: .98rem;
+                        height: .98rem;
+                    }
+                    .mui-media-body {
+                        p {
+                            &:nth-of-type(1) {
+                                color: #000;
+                                margin-bottom: .10rem;
+
+                            }
+                            &:nth-of-type(2) {
+                                color: #EE7700;
+                                font-weight: normal;
+                                font-size: .12rem;
+                                
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+    .title {
+        height: .35rem;
+        margin: .1rem;
+        line-height: .35rem;
+        a {
+            color: #000;
+            font-size: .14rem;
+        }
+        i {
+            font-size: .20rem;
+        }
+    }
+    .mui-backdrop {
+        height: 100vh;
+        background-color: rgba(0,0,0,.8);
+        .ico {
+            height: .25rem;
+            width: .25rem;
+            font-size: .2rem;
+            position: absolute;
+            right: .2rem;
+            top: .2rem;
+            background-color: #fff;
+            border-radius: 50%;
+            line-height: .25rem;
+            text-align: center;
+            background-image: url("../images/icon_bar.png");
+            background-position: .78rem -0.32rem;        }
+        }
+        .slidebox {
+            width: 3rem;
+            height: 2rem;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            background-color: pink;
+            .swiper-container {
+                width: 100%;
+                height: 100%;
+                .swiper-wrapper {
+                    .swiper-slide {
+                        img {
+                            width: 2rem;
+                            height: 1.6rem;
+                        }
+                    }
+                 }
+                .swiper-wrapper {
+                    text-align: center;
+                    line-height: 2rem;   
+                }
+                .swiper-button-next {
+                    background-color: rgba(0, 0, 0, .5);
+                    // color: rgba(0, 0, 0,.2);
+
+                }
+                .swiper-button-prev {
+                    background-color: rgba(0, 0, 0, .5);
+                    // color: rgba(0, 0, 0,.2);
+
+                }
+
+            }
+        }
+        .roctket {
+            width: .5rem;
+            height: .5rem;
+            position: absolute;
+            z-index: 99;
+            bottom: -.8rem;
+            right: .2rem;
+            .icon-md-rocket {
+                width: .5rem;
+                height: .5rem;
+                display: block;
+                font-size: .4rem;
+                color: #666;
+                background-color: #fff;
+                border-radius: 50%;
+                text-align: center;
+                line-height: .5rem;
+
+            }
+        }
+   
+}
